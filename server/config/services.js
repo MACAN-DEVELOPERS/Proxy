@@ -11,7 +11,7 @@ module.exports = {
   },
 
   qa: {
-    api: "/qa",
+    api: "/questions",
     url: "https://deploying-app-questions.herokuapp.com/",
     bundle: "app.js",
   },

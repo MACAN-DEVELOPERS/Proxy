@@ -9,14 +9,15 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="slide.css" />
+
   </head>
   <body>
-    <!-- <div id="Overview"></div>   -->
+    <div id="Overview"></div>
     <div id="relatedItems"></div>
-    <!-- <div id="questions"></div> -->
-    <!-- <div id="review-list"></div> -->
-    
-    
+    <div id="questions"></div>
+    <div id="review-list"></div>
+
     <script
       crossorigin
       src="https://unpkg.com/react@16/umd/react.development.js"
@@ -25,34 +26,34 @@
       crossorigin
       src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"
     ></script>
-    <!-- <script src="http://localhost:3002/app.js"></script> -->
-    <script src="https://macan-app.herokuapp.com"></script>
-    <!-- <script src="http://localhost:3003/app.js"></script> -->
-  <!-- <script src="http://localhost:3001/app.js"></script>  -->
- 
+    <script src="https://deploy-overview.herokuapp.com/app.js"></script>
+    <script src="https://macan-app.herokuapp.com/app.js"></script>
+    <script src="https://deploying-app-questions.herokuapp.com/app.js"></script>
+    <script src="https://ratingreviews.herokuapp.com/app.js"></script>
 
-    <!-- <script>
+    <script>
       ReactDOM.render(
         React.createElement(Overview),
         document.getElementById("Overview")
       );
-    </script> -->
+    </script>
     <script>
       ReactDOM.render(
         React.createElement(RelatedItems),
         document.getElementById("relatedItems")
       );
     </script>
-     <!-- <script>
+    <script>
       ReactDOM.render(
         React.createElement(QuestionsAndAnswers),
         document.getElementById("questions")
       );
-    </script> <script>
+    </script>
+    <script>
       ReactDOM.render(
-        React.createElement('abir'),
+        React.createElement(Rating_reviews),
         document.getElementById("review-list")
       );
-    </script>  -->
+    </script>
   </body>
 </html>
